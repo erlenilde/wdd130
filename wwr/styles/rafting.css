@@ -1,52 +1,70 @@
 :root {
-    --heading-background-color: #1675A4
-    --heading-text-color: #1880B4
+    --background-color:#0972A7;
+    --secondary-color:#F1CF82;
+    --h1-color:#F3F2EB;
+    --heading-color:#484847;
+    --text-color:#FDFCFB;
+    --font-family: 'Roboto', sans-serif;
+    --font-weigh-thin: 100;
 }
 
-header {
-    background-color: var(--heading-background-color);
+a {
+    color: var(--text-color);
+}
+
+
+h2 {
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero {
+    position: relative;
+    }
+
+.hero h1 {
+    position: absolute;
+    color: var(--h1-color);
+    font-family: var(--title-font);
+    font-weight: var(--font-weigh-thin);
+    top: 20px;
+    left: 38%;
+    background-color: var(--heading-color);
+    }  
+
+.hero article {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 80%;
+    color: var(--secondary-color);
+    background-color: var(--heading-color);
+    opacity: 0.8;
+    padding: 1em;
     
-}
-
-div class logobox {
-
-}
-
-nav {
-
-}
-
+    }
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-}
+    }
 
-h1 {
-    position: absolute;
-}
-
-article {
-        position: absolute;
-        width: 100%;
-        background-color: #1675A4;
-        color: #F8FAF9;
-        text-align: center;
-    
-}
-
-article img {
+.hero article img {
     float: right;
+    display: inline;
+    width: 20%;
+    height: auto;
 }
 
-div class example {
-
-}
-
-footer {
-
-}
-
-nav class sociallinks {
-
+.sociallinks {
+    text-decoration: none;
 }
