@@ -272,7 +272,7 @@ input, textarea {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 
 button {
