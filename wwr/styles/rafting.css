@@ -283,3 +283,26 @@ button {
 button:hover {
     background-color: darkgreen;
 }
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.form-item label {
+    display: block;
+    text-align: left; 
+}
+
+.fieldset {
+    text-align: center; 
+}

@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact us at Rafting Momentum for inquiries about our rafting services and team availability.">
+        <meta name="author" content="Rafting Momentum">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/rafting.css">
-        <title>contact-page</title>
+        <title>contact rafting momentum</title>
     </head>
     <body>
         <header>
@@ -22,7 +24,7 @@
         <main>
             <section class="info-map">
                 <div class="info">
-                    <h2>Company Information</h2>
+                    <h1>Company Information</h1>
                     <h3>Houston, TX</h3>
                     <p>6200 DASHWOOD DR HOUSTON TX 77081-4214 USA</p>
                     <p>contact-us@rafting-momentum.com</p>
@@ -62,12 +64,13 @@
                 <fieldset>
                     <legend>Questions</legend>
                     <div class="form-item column1">
-                        <label for="browser">What is your purpose?</label>
-                        <select id="browser" name="browser">
-                        <option value="General Inquiry">General Inquiry</option>
-                        <option value="Reservation Question">Reservation Question</option>
-                        <option value="Website Suggestion">Website Suggestion</option>
-                        </select><br>
+                        <label for="purpose">What is your purpose?</label><br>
+                        <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
+                        <label for="general-inquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                        <label for="reservation-question">Reservation Question</label><br>
+                        <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                        <label for="website-suggestion">Website Suggestion</label><br>
                     </div>
                     <div class="form-item">
                         <label for="feedback">Your message</label><br>
