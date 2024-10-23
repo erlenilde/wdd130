@@ -18,6 +18,11 @@ h2 {
     font-family: var(--font-family);
 }
 
+h3 {
+    color: var(--heading-color);
+    font-family: var(--font-family);
+}
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
