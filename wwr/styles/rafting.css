@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    color: var(--heading-color);
+    color: var(--secondary-color);
     font-family: var(--font-family);
 }
 
@@ -167,6 +167,7 @@ footer {
     text-align: center;
     position: relative;
     background-color: var(--heading-color);
+    flex-direction: column;
 }
 
 footer p {
@@ -185,6 +186,17 @@ footer p {
 .sociallinks img {
     width: 30px;
     height: auto;
+}
+
+.wireframe {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wireframe a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .paragraph-40 {
