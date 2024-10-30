@@ -43,8 +43,6 @@ body {
     color: var(--h1-color);
     font-family: var(--title-font);
     font-weight: var(--font-weigh-thin);
-    /*top: 20px;
-    left: 38%;*/
     background-color: var(--heading-color);
     }  
 
@@ -323,3 +321,199 @@ button:hover {
 .fieldset {
     text-align: center; 
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: roboto;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(2, 44, 62);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(53, 23, 205);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(13, 44, 167);
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+/*index.html*/
+
+.hero-index {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.hero-index img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-index h1 {
+    position: absolute;
+}
+
+.call-trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    text-align: center;
+    align-items: start;
+    padding: 10px;
+}
+
+.call-trips h2 {
+    grid-column: span 3;
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.call-trips img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.call-trips p {
+    margin: 0;
+    padding: 0 10px;
+    max-width: 80%;
+}
+
+.call-trips div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: var(--heading-color);
+}
+
+.call-trips nav {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.call-trips a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/*trips.html*/
+
+.trips-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.trips-description h2 {
+    grid-column: span 3;
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.trips-description div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: var(--heading-color);
+}
+
+.trips-description img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.trips-description p {
+    text-align: justify;
+    margin: 0;
+    padding: 0 10px;
+    color: var(--text-color)
+}
+
+.table {
+    display: grid;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: roboto;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+.call-contact nav {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.call-contact a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
